@@ -1,0 +1,62 @@
+tanpa drop kolom :
+Accuracy: 0.8503929894299395
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.99      0.92     37530
+         1.0       0.58      0.07      0.12      6746
+
+    accuracy                           0.85     44276
+   macro avg       0.72      0.53      0.52     44276
+weighted avg       0.81      0.85      0.80     44276
+
+
+drop kolom Sex, Education, Income: 
+Accuracy: 0.849738007046707
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.99      0.92     37530
+         1.0       0.56      0.06      0.11      6746
+
+    accuracy                           0.85     44276
+   macro avg       0.71      0.53      0.51     44276
+weighted avg       0.81      0.85      0.79     44276
+
+
+drop kolom Sex, Education, Income, Age:
+Accuracy: 0.8174414658975229
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.99      0.90     26333
+         1.0       0.61      0.07      0.13      6084
+
+    accuracy                           0.82     32417
+   macro avg       0.72      0.53      0.52     32417
+weighted avg       0.78      0.82      0.75     32417
+
+
+Klasifikasi KNN(N = 12):
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.96      0.87     53614
+         1.0       0.47      0.14      0.22     14915
+
+    accuracy                           0.78     68529
+   macro avg       0.64      0.55      0.54     68529
+weighted avg       0.73      0.78      0.73     68529
+
+
+Klasifikasi KNN(N = 7):
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.92      0.86     35739
+         1.0       0.41      0.21      0.28      9947
+
+    accuracy                           0.76     45686
+   macro avg       0.61      0.56      0.57     45686
+weighted avg       0.72      0.76      0.73     45686
