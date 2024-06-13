@@ -9,7 +9,7 @@ from sklearn.svm import SVC, SVR, LinearSVC, LinearSVR, NuSVC, NuSVR
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
 
-data = pd.read_csv('outputs/cleaned_data_duplicate.csv')
+data = pd.read_csv('outputs2/cleaned_data_duplicate.csv')
 
 x = data.iloc[:, :-1].values
 y = data.iloc[:, -1].values

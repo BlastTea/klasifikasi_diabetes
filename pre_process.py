@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import random
 
-# Paths ke file CSV yang di-upload
 file_paths = [
     'diff_datasets/Diabetes.csv',
     'diff_datasets/diabetes_binary_health_indicators_BRFSS2021.csv',
